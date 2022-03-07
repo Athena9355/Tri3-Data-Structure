@@ -1,1 +1,1 @@
-# Tri3DataStructure
+# Tri3 Data Structure
