@@ -38,7 +38,7 @@ def numPad():
 def christmas():
   top = '⭐️'
   top_center = top.center(20, " ")
-  print(top_center)
+  print(top_center,end='')
   for i in range(10):
     star = '*' * (2*i)
     center_star = star.center(20, " ")
@@ -86,15 +86,21 @@ def move():
     
 #animation ends
 
-
 #menu challenge
 def print_menu():
   menu_list = [
     '1-- number pad',
     '2-- number swap',
     '3-- christmas tree',
-    '4-- animation 1',
-    '5-- animation 2'
+    '4-- print submenu for animation'
+  ]
+  menu = '\n'.join(menu_list)
+  print(menu)
+
+def print_submenu():
+  menu_list = [
+    '5-- animation 1',
+    '6-- animation 2',
   ]
   menu = '\n'.join(menu_list)
   print(menu)
@@ -117,18 +123,26 @@ def print_result():
     print('\n'"chocie 3" '\n')
     christmas()
     print()
-    
+
   if choice == "4":
     print()
-    print('\n'"chocie 4" '\n')
+    print_submenu()
+    print("Choose an animation:")
+    choiceanimation = input("Enter your choice:")
+    print()
+
+  if choiceanimation == "5":
+    print()
+    print('\n'"choice 5" '\n')
     move()
     print()
 
-  if choice == "5":
+  if choiceanimation == "6":
     print()
-    print('\n'"chocie 5" '\n')
+    print('\n'"chocie 6" '\n')
     animation()
     print()
+    
 
 while(True):
   print("Menu Challenge:")
