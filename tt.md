@@ -100,11 +100,12 @@ def print_menu():
 def print_submenu():
   menu_list = [
     '5-- animation 1',
-    '6-- animation 2',
+    '6-- animation 2'
   ]
   menu = '\n'.join(menu_list)
   print(menu)
 
+  
 def print_result():
   if choice == "1":
     print()
@@ -129,20 +130,20 @@ def print_result():
     print_submenu()
     print("Choose an animation:")
     choiceanimation = input("Enter your choice:")
-    print()
-
-  if choiceanimation == "5":
-    print()
-    print('\n'"choice 5" '\n')
-    move()
-    print()
-
-  if choiceanimation == "6":
-    print()
-    print('\n'"chocie 6" '\n')
-    animation()
-    print()
+    if choiceanimation == "5":
+      print()
+      print('\n'"choice 5" '\n')
+      move()
+      print()
     
+    if choiceanimation == "6":
+      print()
+      print('\n'"chocie 6" '\n')
+      animation()
+      print()
+    print()
+
+
 
 while(True):
   print("Menu Challenge:")
