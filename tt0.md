@@ -1,3 +1,9 @@
+<table>
+    <tr>
+        <td><a href=".">Home</a></td>
+    </tr>
+</table>
+
 ### TT0
 Build your own menu and sub-menu
 Add swap and keypad from Tri 2 Week 10, to your project and menu.
