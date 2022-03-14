@@ -1,3 +1,9 @@
+<table>
+    <tr>
+        <td><a href=".">Home</a></td>
+    </tr>
+</table>
+
 ### TPT 0.1 related to Beneficial and Harmful Effects of Computing Big Idea 5.1
 
 1. Come up with three of your own Beneficial and corresponding Harmful Effects of Computing
