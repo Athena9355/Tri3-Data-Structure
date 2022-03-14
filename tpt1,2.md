@@ -23,3 +23,68 @@
 
 3. Is paper or red tape blocking digital empowerment? Are there such barriers at Del Norte? Elsewhere?
 > Red tape blocks digital empowerment, and there are such barriers at Del Norte. For example, the students are unable to have unlimited access to the school wifi. The school wifi does not allow students to enter certain websites. Another example is that, using a school chrome book, the student is unable to log in to other google accounts other than the school account. 
+
+
+### 5.1 Notes
+
+- People create computing innovations
+- The way people complete tasks often changes to incorporate new computing innovations
+- Not every effect of a computing innovation is anticipated in advance
+- A single effect can be viewed as both beneficial and harmful by different people or even by the same person
+- Advances in computing having generated and increased creativity in other fields, such as medicine, engineering, communications, and the arts
+- The wii controller and iPhone have accelerometers in them
+- Accelerometers
+- Automobile industry drove price down
+- Used for airbag deployment and lateral movement detection
+- Quadcopter “brain”
+- The way people complete tasks often changes to incorporate new computing innovations
+- Multirotor
+- Benefit - deliveries, finding lost people, aerial photography is easy
+- Harmful - flying in unregulated zones is illegal and dangerous, privacy concerns
+- Wii controller
+- Benefit - gets people active playing video games
+- Harmful - broken TVs and injuries
+- 3D printers
+- Open-source software for the computer and printer
+- In school and homes
+- New classes developed for 3D printing
+- Special 3D printers can make
+- organs/prosthetics
+- Houses
+- Shoes and jewelry
+- Themselves
+- People creat computing innovations
+- Advances in computing have generated and increased creativity in other fields, such as medicine, engineering, communications, and the arts
+- Computing innovations can be used in ways that their creators had not originally intended
+- The world wide web was originally intended only for rapid and easy exchange of information within the scientific community
+- Targeted advertising is used to help businesses, but it can be misused at both individual and aggregate levels
+- Machine learning and data mining have enabled innovation in medicine, business, and science, but information discovered in this way has also been used to discriminate against groups of individuals
+- The Internet -- Originally for Scientists
+- Many people spend more time on the internet than sleeping
+- Imagine your life without the World Wide Web
+- Dopamine feedback loops
+- Sleep deprivation, depression, anxiety, impulsivity
+- Tik-Tok PSA
+- Microtransactions
+- Free games/apps
+- cosmetics/pay-to-win/paywall to functionality
+- Gold, v-bucks, coins, chips, SBUX
+- Loot boxes - banned in some countries
+- Some of the ways computing innovations can be used may have a harmful impact
+- It is not possible for a programmer to consider all the ways a computing innovation can be used
+
+
+### 5.2 Notes
+- Internet access varies between socioeconomic, geographic, and demographic characteristics, as well as between countries
+- The digital divide refers to differing access to computing devices and the internet, based on socioeconomic, geographic, or demographic characteristics
+- The digital divide can affect both groups and individuals
+- The digital divide raises issues of equity, access, and influence, both globally and locally
+- The digital divide is affected by the actions of individuals organizations and government
+- Demographics include, but not isolated to
+> - Age
+> - Religion
+> - In some countries
+- Computers are not that common in rural areas
+- Only a small number of websites
+- The internet is used to protect and advocate the government
+- There is a high level of surveillance on the internet to protect the government
