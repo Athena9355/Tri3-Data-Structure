@@ -1,6 +1,8 @@
 <table>
     <tr>
         <td><a href=".">Home</a></td>
+        <td><a href="tt0">TT0</a></td>
+        <td><a href="tt1">TT1</a></td>
     </tr>
 </table>
 <iframe frameborder="0" width="100%" height="500px" src="https://replit.com/@AthenaWu2/TT1-Data-Structures?embed=true"></iframe>
