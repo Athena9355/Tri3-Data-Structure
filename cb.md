@@ -1,8 +1,5 @@
-<table>
-    <tr>
-        <td><a href=".">Home</a></td>
-    </tr>
-</table>
+{% include navigation.html %}
+
 ### Overview of the CB  "Create Performance Task"
 * Students (us) will design and implement a program that has a goal to solve a problem, enable innovation, or express creativity.
 * Our submission will include the elements listed below.
