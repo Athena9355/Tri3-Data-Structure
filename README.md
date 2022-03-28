@@ -5,74 +5,74 @@
 ### Timebox
 - **Week 0**:
     - Menu set up
-    ```
-    border = "=" * 25
-    banner = f"\n{border}\nPlease Select An Option\n{border}"
+        ```
+            border = "=" * 25
+            banner = f"\n{border}\nPlease Select An Option\n{border}"
 
-    main_menu = [
-        ["Number Pad", numpad.driver],
-        ["Number Swap", swap.driver],
-        ["Christmas Tree", tree.driver],
-        ["Animation (arrow)", arrow.driver],
-        ["Animation (face)", face.driver],
-        ["List (Loops)", info.driver],
-    ]
-
-
-    sub_menu = [
-        ["Fibonacci", math.fib],
-        ["Factorial", math.factorial],
-    ]
+            main_menu = [
+                ["Number Pad", numpad.driver],
+                ["Number Swap", swap.driver],
+                ["Christmas Tree", tree.driver],
+                ["Animation (arrow)", arrow.driver],
+                ["Animation (face)", face.driver],
+                ["List (Loops)", info.driver],
+            ]
 
 
-    def menu(banner, options):
-        # header for menu
-        print(banner)
-        # build a dictionary from options
-        prompts = {0: ["Exit", None]}
-        for op in options:
-            index = len(prompts)
-            prompts[index] = op
+            sub_menu = [
+                ["Fibonacci", math.fib],
+                ["Factorial", math.factorial],
+            ]
 
-    # print menu or dictionary
-    for key, value in prompts.items():
-        print(key, '->', value[0])
 
-    # get user choice
-    choice = input("Type your choice> ")
+            def menu(banner, options):
+                # header for menu
+                print(banner)
+                # build a dictionary from options
+                prompts = {0: ["Exit", None]}
+                for op in options:
+                    index = len(prompts)
+                    prompts[index] = op
 
-    # validate choice and run
-    # execute selection
-    # convert to number
-    try:
-        choice = int(choice)
-        if choice == 0:
-            # stop
-            return
-        try:
-            # try as function
-            action = prompts.get(choice)[1]
-            action()
-        except TypeError:
-            try:  # try as playground style
-                exec(open(action).read())
-            except FileNotFoundError:
-                print(f"File not found!: {action}")
-            # end function try
-        # end prompts try
-    except ValueError:
-        # not a number error
-        print(f"Not a number: {choice}")
-    except UnboundLocalError:
-        # traps all other errors
-        print(f"Invalid choice: {choice}")
-    except TypeError:
-        print(f"Not callable {action}")
-    # end validation try
+            # print menu or dictionary
+            for key, value in prompts.items():
+                print(key, '->', value[0])
 
-    menu(banner, options)  # recursion, start menu over again
+            # get user choice
+            choice = input("Type your choice> ")
+
+            # validate choice and run
+            # execute selection
+            # convert to number
+            try:
+                choice = int(choice)
+                if choice == 0:
+                    # stop
+                    return
+                try:
+                    # try as function
+                    action = prompts.get(choice)[1]
+                    action()
+                except TypeError:
+                    try:  # try as playground style
+                        exec(open(action).read())
+                    except FileNotFoundError:
+                        print(f"File not found!: {action}")
+                    # end function try
+                # end prompts try
+            except ValueError:
+                # not a number error
+                print(f"Not a number: {choice}")
+            except UnboundLocalError:
+                # traps all other errors
+                print(f"Invalid choice: {choice}")
+            except TypeError:
+                print(f"Not callable {action}")
+            # end validation try
+
+            menu(banner, options)  # recursion, start menu over again
     
-    ```
+        ```
     - Christmas Tree
     ```
     def driver():
