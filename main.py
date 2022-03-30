@@ -3,9 +3,9 @@ import swap
 import numpad
 import face
 import arrow
-import math
+import mathy
 import info
-hello
+
 border = "=" * 25
 banner = f"\n{border}\nPlease Select An Option\n{border}"
 
@@ -20,12 +20,12 @@ main_menu = [
 
 
 sub_menu = [
-    ["Fibonacci", math.fib],
-    ["Factorial", math.factorial],
-    ["Factorial with class", math.test],
-    ["Palindrome", math.palindrome],
-    ["Greatest common factor (imperative form)", math.gcf_imperative],
-    ["Greatest common factor (OOP form)", math.gcf_oop],
+    ["Fibonacci", mathy.fib],
+    ["Factorial", mathy.factorial],
+    ["Factorial with class", mathy.test],
+    ["Palindrome", mathy.palindrome],
+    ["Greatest common factor (imperative form)", mathy.gcf_imperative],
+    ["Greatest common factor (OOP form)", mathy.gcf_oop],
 ]
 
 
