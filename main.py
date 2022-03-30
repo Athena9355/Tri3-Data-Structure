@@ -5,7 +5,7 @@ import face
 import arrow
 import mathy
 import info
-import numberguess
+
 
 border = "=" * 25
 banner = f"\n{border}\nPlease Select An Option\n{border}"
@@ -27,6 +27,7 @@ sub_menu = [
     ["Palindrome", mathy.palindrome],
     ["Greatest common factor (imperative form)", mathy.gcf_imperative],
     ["Greatest common factor (OOP form)", mathy.gcf_oop],
+    ["Guess Number Game!", mathy.tester],
 ]
 
 
