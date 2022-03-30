@@ -5,6 +5,7 @@ import face
 import arrow
 import mathy
 import info
+import numberguess
 
 border = "=" * 25
 banner = f"\n{border}\nPlease Select An Option\n{border}"
