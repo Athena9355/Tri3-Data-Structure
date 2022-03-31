@@ -23,6 +23,23 @@ def tester():
     usern = int(input("Enter an number from 1 to 10: "))
     guessNumber(usern)
 ```
+### Code for random password generator
+```python
+def password(l):
+    letter = string.ascii_lowercase + string.ascii_uppercase
+    n = string.digits
+    other = string.punctuation
+    all = letter + n + other
+    for i in range(l):
+        password = random.sample(all, l)
+    for thing in password:
+        print(thing, end='')
+    print(" ")
 
+def passwordtester():
+    l = int(input("Enter a desired length for the password: "))
+    password(l)
+
+```
 
 
