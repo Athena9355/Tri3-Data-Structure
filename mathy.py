@@ -150,10 +150,17 @@ def tester():
     usern = int(input("Enter an number from 1 to 10: "))
     guessNumber(usern)
 
-def password():
+def password(l):
     letter = string.ascii_lowercase + string.ascii_uppercase
     n = string.digits
     other = string.punctuation
     all = letter + n + other
-    password = random.sample(all, 8)
-    print (password)
+    for i in range(l):
+        password = random.sample(all, l)
+    for thing in password:
+        print(thing, end='')
+    print(" ")
+
+def passwordtester():
+    l = int(input("Enter a desired length for the password: "))
+    password(l)
