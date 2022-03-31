@@ -1,5 +1,5 @@
 import random
-
+import string
 #Fibonacci
 def fib():
     x = input("Enter a number for fibonacci:")
@@ -150,3 +150,10 @@ def tester():
     usern = int(input("Enter an number from 1 to 10: "))
     guessNumber(usern)
 
+def password():
+    letter = string.ascii_lowercase + string.ascii_uppercase
+    n = string.digits
+    other = string.punctuation
+    all = letter + n + other
+    password = random.sample(all, 8)
+    print (password)

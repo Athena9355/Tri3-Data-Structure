@@ -27,7 +27,7 @@ sub_menu = [
     ["Palindrome", mathy.palindrome],
     ["Greatest common factor (imperative form)", mathy.gcf_imperative],
     ["Greatest common factor (OOP form)", mathy.gcf_oop],
-    ["Guess Number Game!", mathy.tester],
+    ["Random Password Generator!", mathy.password],
 ]
 
 
