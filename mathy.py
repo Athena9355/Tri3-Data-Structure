@@ -144,7 +144,7 @@ def guessNumber(usern):
             usern = int(input("Enter an number from 1 to 10: "))
         elif usern == n:
             print ("Nice! That's the score you got out of 10 this week!")
-            quit()
+            break
 
 def tester():
     usern = int(input("Enter an number from 1 to 10: "))

@@ -10,26 +10,22 @@ import info
 border = "=" * 25
 banner = f"\n{border}\nPlease Select An Option\n{border}"
 
-main_menu = [
-    ["Number Pad", numpad.driver],
-    ["Number Swap", swap.driver],
-    ["Christmas Tree", tree.driver],
-    ["Animation (arrow)", arrow.driver],
-    ["Animation (face)", face.driver],
-    ["List (Loops)", info.driver],
-]
+main_menu = []
 
 
-sub_menu = [
+math_sub_menu = [
     ["Fibonacci", mathy.fib],
     ["Factorial", mathy.factorial],
     ["Factorial with class", mathy.test],
     ["Palindrome", mathy.palindrome],
     ["Greatest common factor (imperative form)", mathy.gcf_imperative],
     ["Greatest common factor (OOP form)", mathy.gcf_oop],
-    ["Random Password Generator!", mathy.passwordtester],
 ]
 
+adventure_sub_menu = [
+    ["Random Password Generator!", mathy.passwordtester],
+    ["Guess Number Game", mathy.tester],
+]
 
 def menu(banner, options):
     # header for menu
@@ -82,14 +78,19 @@ def menu(banner, options):
 # def submenu
 # using sub menu list above:
 # sub_menu works similarly to menu()
-def submenu():
-    title = "Function Submenu" + banner
-    menu(title, sub_menu)
+def math_submenu():
+    title = "Math Submenu" + banner
+    menu(title, math_sub_menu)
+
+def adventure_submenu():
+    title = "Adventure Submenu" + banner
+    menu(title, adventure_sub_menu)
 
 def driver():
     title = "Function Menu" + banner
     menu_list = main_menu.copy()
-    menu_list.append(["Math", submenu])
+    menu_list.append(["Math", math_submenu])
+    menu_list.append(["Adventure", adventure_submenu])
     menu(title, menu_list)
 
 
