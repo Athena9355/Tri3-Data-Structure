@@ -164,3 +164,26 @@ def password(l):
 def passwordtester():
     l = int(input("Enter a desired length for the password: "))
     password(l)
+
+def game():
+    words = [
+        "hello",
+        "game",
+        "about",
+        "administration",
+        "agent",
+        "beautiful",
+        "challenge",
+        "course",
+        "discover",
+        "economy",
+        "figure",
+        "human",
+        "minute",
+    ]
+    answer = random.choice(words)
+    letter = []
+    for i in answer:
+        letter.append(i)
+    print(answer)
+    print(letter)

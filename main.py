@@ -25,6 +25,7 @@ math_sub_menu = [
 adventure_sub_menu = [
     ["Random Password Generator!", mathy.passwordtester],
     ["Guess Number Game", mathy.tester],
+    ["Hangman", mathy.game]
 ]
 
 def menu(banner, options):
