@@ -205,14 +205,14 @@ def game():
     num_blank = blank * len(letter)
     blank_list = [num_blank]
     print(blank_list)
-
-
+    progress = []
     while n > 0:
         guess = input("Guess a letter!: ")
         for i in letter:
             if i == guess:
-                print("right output!")
-
+                progress.append(i)
+        n = n - 1
+    print(progress)
 
 
 
