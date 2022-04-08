@@ -166,6 +166,7 @@ def passwordtester():
     password(l)
 
 def game():
+    #builds the list of words available to be answers
     words = [
         "hello",
         "game",
@@ -181,9 +182,37 @@ def game():
         "human",
         "minute",
     ]
+    #randomly pick a word from the list and save it as the correct answer
     answer = random.choice(words)
+    #creates a blank list that is used to save every letter of the chosen word
     letter = []
+    #adds letter to the list letter
     for i in answer:
         letter.append(i)
+    #makes sure that every code worked as intended
     print(answer)
     print(letter)
+
+    print("Hello, welcome to the game!\n" 
+          "The computer will generate a random word.\n"
+          "You have to guess, one letter at a time, what the word is.\n"
+          "You have a limited number of chances to guess the wrong letter.\n")
+    n = int(input("How many chances would you like to have?"))
+    print(n)
+
+    print("let's start the game! Each blank below represents a letter.")
+    blank = "__ "
+    num_blank = blank * len(letter)
+    blank_list = [num_blank]
+    print(blank_list)
+
+
+    while n > 0:
+        guess = input("Guess a letter!: ")
+        for i in letter:
+            if i == guess:
+                print("right output!")
+
+
+
+
