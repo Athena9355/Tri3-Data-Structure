@@ -1,4 +1,7 @@
 {% include navigation.html %}
+### Analysis of Accounts and Log Ins
+**Discuss some of the flaws that you see in its security as implemented.**
+> A flaw is that users are not required to log in. Therefore, all the information (especially those under the tabs of trimester 1 and trimester 2, which does include some names of students) are available for anyone who wishes to access. Because log in is not required, the information about the class is also public for anyone to access.
 
 ### Overview of the CB  "Create Performance Task"
 * Students (us) will design and implement a program that has a goal to solve a problem, enable innovation, or express creativity.
@@ -30,6 +33,3 @@ Hang Men
 > For my create task project, I plan on creating a hang men game using python. The hang men game will satisfy college board requirements. The purpose of creating this game is to allow users a method of learning new vocabularies in a fun and interacting way. The program will use multiple functions, such as a function that will generate a random word for each round of the game. The input will be received from the user: the user will input the letter that they guess. The output will be either one of the following: in the case that the user guessed a letter that is in the word, the letter will pop up on the screen, if the user did not get the right letter, then, another body part of the hang men will be drawn. A list will be created for the game. The list will store information on the word options available. The list will later be called and an element from the list will be pulled out and used as the word for the game. Another procedure will be made to satisfy the requirements for 3d. This procedure will have checkboxes on the top and allow the user to pick the level of difficulties. The diffuiculties differ by the number of chances the user gets and how common the word is.
 
 
-Accounts and Log In discussion
-**Discuss some of the flaws that you see in its security as implemented.**
-A flaw is that users are not required to log in. Therefore, all the information (especially those under the tabs of trimester 1 and trimester 2, which does include some names of students) are available for anyone who wishes to access. Because log in is not required, the information about the class is also public for anyone to access.
