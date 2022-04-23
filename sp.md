@@ -61,4 +61,8 @@ C is incorrect. The application must download books and articles from the Intern
 B is incorrect. The application only sends notifications to compatible users who are nearby. Since not all people will be considered compatible, users are unlikely to be able to identify all other users in the area. C is correct. The application can be used to connect users with other nearby users, which may encourage users to exercise together. This may have the effect of improving user health.
 
 <br>
-50. <br>
+50.
+<img width="809" alt="Screen Shot 2022-04-23 at 12 39 46 PM" src="https://user-images.githubusercontent.com/89219573/164943765-ce30b607-babd-4cd1-b097-5fc7dc73466d.png">
+
+Option A is incorrect. The average total points earned per student can also be determined using the result of the total points calculation for each student. The average increase in total points per student as a result of the score replacement policy can also be determined by calculating the differences between each student score before and after the replacement policy was applied. Therefore, D is correct.
+ <br>
