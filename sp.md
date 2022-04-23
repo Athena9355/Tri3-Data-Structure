@@ -42,7 +42,11 @@
 The minimum of two processors will be the sum of the two processors that takes the least amount of time. Therefore, the answer will be 30 + 50, which is 80. Thus, the answer is C and not A.
 
 <h3>Quiz 2</h3>
-1. <br>
+1. 
+<img width="815" alt="Screen Shot 2022-04-23 at 12 33 18 PM" src="https://user-images.githubusercontent.com/89219573/164943617-96e9ab7f-4070-42d0-81df-f6aaf3e78cb8.png">
+
+B is incorrect. The efficiency of a parallel solution is limited by a sequential portion. Eventually, adding parallel portions will no longer meaningfully increase efficiency. Choice D is the correct answer. Parallel computing solutions consist of a parallel portion and a sequential portion. When increasing the use of parallel computing in a solution, the efficiency of the solution is limited by the sequential portion. This means that at some point, adding parallel portions will no longer meaningfully increase efficiency.
+<br>
 20. <br>
 25. <br>
 50. <br>
