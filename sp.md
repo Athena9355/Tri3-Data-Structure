@@ -30,11 +30,13 @@
   Choice A is not correct. Statement III is also correct because under Creative Commons the author can stipulate what kind of modification is allowed by users. Therefore, choice C is the correct answer. 
  <br>
  
-  33.<img width="813" alt="Screen Shot 2022-04-23 at 12 26 09 PM" src="https://user-images.githubusercontent.com/89219573/164943400-9cf2f23e-fabf-4532-94e0-ae5226f020e8.png">
+  33.
+  <img width="813" alt="Screen Shot 2022-04-23 at 12 26 09 PM" src="https://user-images.githubusercontent.com/89219573/164943400-9cf2f23e-fabf-4532-94e0-ae5226f020e8.png">
   
   The question asks for an option that is "NOT" an example of multifactoring authentication. 
  <br>
-  39. <img width="809" alt="Screen Shot 2022-04-23 at 12 27 07 PM" src="https://user-images.githubusercontent.com/89219573/164943447-ebc780f4-a843-48cf-9958-230df568eee8.png">
+  39. 
+  <img width="809" alt="Screen Shot 2022-04-23 at 12 27 07 PM" src="https://user-images.githubusercontent.com/89219573/164943447-ebc780f4-a843-48cf-9958-230df568eee8.png">
 <br>
 The minimum of two processors will be the sum of the two processors that takes the least amount of time. Therefore, the answer will be 30 + 50, which is 80. Thus, the answer is C and not A.
 
