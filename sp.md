@@ -23,7 +23,8 @@
   
   Data is typically assmebled in a way that each packet contains data to be transmitted, along with metadata containing information used for routing the data.
  <br>
- 
+
+
   25.
   <img width="815" alt="Screen Shot 2022-04-23 at 12 24 51 PM" src="https://user-images.githubusercontent.com/89219573/164943357-cbd9df3e-10a4-4953-81e7-04fbe654c665.png">
   
@@ -54,5 +55,10 @@ B is incorrect. The efficiency of a parallel solution is limited by a sequential
 C is incorrect. The application must download books and articles from the Internet, so it is unlikely that users with limited Internet access will have an improved ability to obtain books and articles. D is correct. Users with visual impairments can set their personal preferences to make text easier for them to read. These users can also enable text-to-speech to allow them to listen to text.
 <br>
 
-25. <br>
+25.  
+<img width="817" alt="Screen Shot 2022-04-23 at 12 37 45 PM" src="https://user-images.githubusercontent.com/89219573/164943734-d131e9dc-18ea-4f54-9097-6b4de0889c9b.png">
+
+B is incorrect. The application only sends notifications to compatible users who are nearby. Since not all people will be considered compatible, users are unlikely to be able to identify all other users in the area. C is correct. The application can be used to connect users with other nearby users, which may encourage users to exercise together. This may have the effect of improving user health.
+
+<br>
 50. <br>
