@@ -42,4 +42,7 @@
 The minimum of two processors will be the sum of the two processors that takes the least amount of time. Therefore, the answer will be 30 + 50, which is 80. Thus, the answer is C and not A.
 
 <h3>Quiz 2</h3>
-info
+1. <br>
+20. <br>
+25. <br>
+50. <br>
