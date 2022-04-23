@@ -47,6 +47,12 @@ The minimum of two processors will be the sum of the two processors that takes t
 
 B is incorrect. The efficiency of a parallel solution is limited by a sequential portion. Eventually, adding parallel portions will no longer meaningfully increase efficiency. Choice D is the correct answer. Parallel computing solutions consist of a parallel portion and a sequential portion. When increasing the use of parallel computing in a solution, the efficiency of the solution is limited by the sequential portion. This means that at some point, adding parallel portions will no longer meaningfully increase efficiency.
 <br>
-20. <br>
+
+20. 
+<img width="808" alt="Screen Shot 2022-04-23 at 12 34 37 PM" src="https://user-images.githubusercontent.com/89219573/164943650-757fd5b9-22f0-4c68-873c-e1a1521c4083.png">
+
+C is incorrect. The application must download books and articles from the Internet, so it is unlikely that users with limited Internet access will have an improved ability to obtain books and articles. D is correct. Users with visual impairments can set their personal preferences to make text easier for them to read. These users can also enable text-to-speech to allow them to listen to text.
+<br>
+
 25. <br>
 50. <br>
