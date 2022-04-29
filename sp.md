@@ -69,9 +69,13 @@ Option A is incorrect. The average total points earned per student can also be d
  
  <h3>Quiz 1</h3>
 39/50 <br>
-  1. 
+  1.  <img width="819" alt="Screen Shot 2022-04-28 at 11 04 53 PM" src="https://user-images.githubusercontent.com/89219573/165892393-7d370eff-9231-407c-9da6-f3584de39d01.png">
+The answer is not C.  While it is possible to disconnect computers U and T by removing three connections, it can be done by removing only two connections. The answer is B. If the connections between U and V and between U and P were removed, then computer T and computer U can no longer communicate.
+
 <br>
-  2.
+  2.<img width="812" alt="Screen Shot 2022-04-28 at 11 05 40 PM" src="https://user-images.githubusercontent.com/89219573/165892467-b2280a68-112b-4bf6-a047-9ab1f364b317.png">
+A is incorrect. While some solutions benefit from being validated by a human, not all problems can be solved with an algorithm. D is correct. An undecidable problem is one for which no algorithm can be constructed that is always capable of providing a correct yes-or-no answer. Some instances of an undecidable problem may have an algorithmic solution, but there is no algorithmic solution that could solve all instances of the problem.
+
 <br>
   6. 
 <br>
