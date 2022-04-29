@@ -66,3 +66,27 @@ B is incorrect. The application only sends notifications to compatible users who
 
 Option A is incorrect. The average total points earned per student can also be determined using the result of the total points calculation for each student. The average increase in total points per student as a result of the score replacement policy can also be determined by calculating the differences between each student score before and after the replacement policy was applied. Therefore, D is correct.
  <br>
+ 
+ <h3>Quiz 1</h3>
+39/50 <br>
+  1. 
+<br>
+  2.
+<br>
+  6. 
+<br>
+  7.
+<br>
+  14. 
+<br>
+  21.
+<br>
+  28. 
+<br>
+  30.
+<br>
+  34. 
+<br>
+  40.
+<br>
+  47. 
