@@ -77,20 +77,41 @@ The answer is not C.  While it is possible to disconnect computers U and T by re
 A is incorrect. While some solutions benefit from being validated by a human, not all problems can be solved with an algorithm. D is correct. An undecidable problem is one for which no algorithm can be constructed that is always capable of providing a correct yes-or-no answer. Some instances of an undecidable problem may have an algorithmic solution, but there is no algorithmic solution that could solve all instances of the problem.
 
 <br>
-  6. 
+  6. <img width="828" alt="Screen Shot 2022-04-28 at 11 09 42 PM" src="https://user-images.githubusercontent.com/89219573/165892843-bad235c3-ae87-4bee-a934-8b71c2e3f361.png">
+<img width="807" alt="Screen Shot 2022-04-28 at 11 09 56 PM" src="https://user-images.githubusercontent.com/89219573/165892873-044a072c-69de-43c0-a2d1-277e64618bc1.png">
+
+Answer C is incorrect. This algorithm displays the numbers 1, 2, 4, 5, 7, 8, 10, 11, 13, 14, 16, 17, and 19. The number 20 is not displayed since the algorithm terminates immediately after x is assigned the value 20. Answer D is correct. This algorithm displays the numbers 1, 2, 4, 5, 7, 8, 10, 11, 13, 14, 16, 17, 19, and 20. After 20 is displayed, x is incremented to 21. The value 21 is not displayed since it is a multiple of 3 and the algorithm terminates.
+
 <br>
-  7.
+  7.<img width="813" alt="Screen Shot 2022-04-28 at 11 14 24 PM" src="https://user-images.githubusercontent.com/89219573/165893303-37862b5b-fcf1-4252-8d1e-9cefff6b9bf2.png">
+C is incorrect. The procedure does not return the value of n * n. For a procedure to return n * n, it could initialize result to 0 and then repeatedly add n to result a total of n times. D is correct. The procedure initially sets result to 1 and j to 2. In the REPEAT UNTIL loop, result is first assigned the sum of result and j, or 1 + 2. The value of j is then increased to 3. In each subsequent iteration of the loop, result is increased by each successive value of j (3, 4, 5, etc.) until j exceeds n. Therefore, the procedure returns the sum of the integers from 1 to n.
 <br>
-  14. 
+  14. <img width="807" alt="Screen Shot 2022-04-28 at 11 15 19 PM" src="https://user-images.githubusercontent.com/89219573/165893419-b823c9e3-67ee-4c9e-9b0e-852f7531a95a.png">
+Answer A is incorrect. The procedure will display 2, which is the correct index for the targetName "Ben". Answer C is correct. The procedure will not display the correct value of foundIndex if the targetName is "Ben". In the FOR EACH loop, when the value of name is "Andrea", the ELSE statement sets foundIndex to 0. When the value of name is "Ben", the ELSE statement sets foundIndex to 1. But as the loop continues, and the value of name is "Chris", the ELSE statement sets foundIndex to 0. The procedure displays 0, even though the correct answer is 1.
 <br>
-  21.
+  21.<img width="813" alt="Screen Shot 2022-04-28 at 11 17 06 PM" src="https://user-images.githubusercontent.com/89219573/165893561-507c9eec-20b7-4b37-90e2-417d89333ea2.png">
+A is not correct. Overwhelming a system with requests in order to deny service can be done regardless of password strength. D is correct. A strong password is something that is easy for a user to remember but would be difficult for someone else to guess based on knowledge of that user. Weak passwords can often be guessed based on publicly available information about a user. Other weak passwords (such as "password" or "1234") can often be guessed because they are commonly used.
 <br>
-  28. 
+  28. <img width="801" alt="Screen Shot 2022-04-28 at 11 17 51 PM" src="https://user-images.githubusercontent.com/89219573/165893647-7a611dac-89dc-4332-9fce-b12935d2a196.png">
+<img width="808" alt="Screen Shot 2022-04-28 at 11 18 05 PM" src="https://user-images.githubusercontent.com/89219573/165893666-c383511a-851f-4775-bb00-8640a0391d91.png">
+
+A is incorrect. While the number of registered users appears to have grown at a constant rate for years 5 to 8, the number of registered users roughly doubled each year for years 1 to 5. C is correct. From years 1 to 5, the number of registered users roughly doubled each year. From years 5 to 8, the number of registered users increased by about 100 million each year.
 <br>
-  30.
+  30.<img width="806" alt="Screen Shot 2022-04-28 at 11 18 57 PM" src="https://user-images.githubusercontent.com/89219573/165893761-61c6c30f-b7ca-4cc5-9bf2-0643a59001a3.png">
+
+B is incorrect. The Internet is a network of interconnected networks, but the World Wide Web is an information system that is accessed via the Internet. D is correct. The Internet is the global system of interconnected computer networks that uses protocols to connect devices worldwide. The World Wide Web is an information system (of pages, programs, and files) that is accessible over the Internet. 
 <br>
-  34. 
+  34. <img width="819" alt="Screen Shot 2022-04-28 at 11 19 58 PM" src="https://user-images.githubusercontent.com/89219573/165893884-e5a0b4a9-2ed5-424e-9549-c00167525354.png">
+
+B is correct. As this algorithm has a factorial efficiency, it does not run in a reasonable amount of time. A heuristic approach can be used to find an approximate solution than can run in a reasonable amount of time. C is incorrect. This algorithm has linear efficiency, so it runs in a reasonable amount of time. Therefore, a heuristic is not appropriate.
 <br>
-  40.
+  40.<img width="753" alt="Screen Shot 2022-04-28 at 11 20 44 PM" src="https://user-images.githubusercontent.com/89219573/165893977-bc56694c-3ed0-4e5b-ba42-db7bba9aca42.png">
+<img width="809" alt="Screen Shot 2022-04-28 at 11 21 06 PM" src="https://user-images.githubusercontent.com/89219573/165894019-ab981a30-2161-431b-a360-ea954748ae6a.png">
+C is incorrect. Inserting Win, left arrow, true between line 20 and line 21 will cause the loop to terminate when the guess is incorrect. B is correct. Inserting Win, left arrow, true between line 9 and line 10 will cause the loop to terminate when the guess is correct.
+
 <br>
-  47. 
+
+  47. <img width="810" alt="Screen Shot 2022-04-28 at 11 22 03 PM" src="https://user-images.githubusercontent.com/89219573/165894112-6a898bc2-3f58-4c89-881e-6e761755bbd4.png">
+<img width="805" alt="Screen Shot 2022-04-28 at 11 22 29 PM" src="https://user-images.githubusercontent.com/89219573/165894159-8144f165-f981-45f7-8318-8fc6c95281f4.png">
+<img width="821" alt="Screen Shot 2022-04-28 at 11 22 49 PM" src="https://user-images.githubusercontent.com/89219573/165894181-3de29b47-6b0f-4a1d-a4b0-07d1f945a6c8.png">
+D is correct. This code segment sets bonus to 0 when score < 50, sets bonus to score * 10 when score > 100, and sets bonus to score when 100 ≥ score ≥ 50.
