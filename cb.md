@@ -1,4 +1,18 @@
 {% include navigation.html %}
+
+### CB Create Task
+Video: https://www.youtube.com/shorts/xiS-zsZEdDo
+<br>
+Written Response: https://docs.google.com/document/d/1Z7CGJcYjwA-MlYglDtcmRuAsN2CMjcwOR7Z6FyHu9Iw/edit?usp=sharing
+
+
+
+
+
+
+
+
+
 ### Analysis of Accounts and Log Ins
 **Discuss some of the flaws that you see in its security as implemented.**
 > A flaw is that users are not required to log in. Therefore, all the information (especially those under the tabs of trimester 1 and trimester 2, which does include some names of students) are available for anyone who wishes to access. Because log in is not required, the information about the class is also public for anyone to access.
