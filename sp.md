@@ -67,7 +67,7 @@ B is incorrect. The application only sends notifications to compatible users who
 Option A is incorrect. The average total points earned per student can also be determined using the result of the total points calculation for each student. The average increase in total points per student as a result of the score replacement policy can also be determined by calculating the differences between each student score before and after the replacement policy was applied. Therefore, D is correct.
  <br>
  
- <h3>Quiz 1</h3>
+ <h3>Quiz 3</h3>
 39/50 <br>
   1.  <img width="819" alt="Screen Shot 2022-04-28 at 11 04 53 PM" src="https://user-images.githubusercontent.com/89219573/165892393-7d370eff-9231-407c-9da6-f3584de39d01.png">
 The answer is not C.  While it is possible to disconnect computers U and T by removing three connections, it can be done by removing only two connections. The answer is B. If the connections between U and V and between U and P were removed, then computer T and computer U can no longer communicate.
@@ -115,3 +115,17 @@ C is incorrect. Inserting Win, left arrow, true between line 20 and line 21 will
 <img width="805" alt="Screen Shot 2022-04-28 at 11 22 29 PM" src="https://user-images.githubusercontent.com/89219573/165894159-8144f165-f981-45f7-8318-8fc6c95281f4.png">
 <img width="821" alt="Screen Shot 2022-04-28 at 11 22 49 PM" src="https://user-images.githubusercontent.com/89219573/165894181-3de29b47-6b0f-4a1d-a4b0-07d1f945a6c8.png">
 D is correct. This code segment sets bonus to 0 when score < 50, sets bonus to score * 10 when score > 100, and sets bonus to score when 100 ≥ score ≥ 50.
+
+
+<h3>Quiz 5</h3>
+46/50 <br>
+16.<img width="812" alt="Screen Shot 2022-05-06 at 1 19 15 PM" src="https://user-images.githubusercontent.com/89219573/167211055-22fb4f7c-1e77-4241-9ac8-551bad449d42.png">
+
+The answer is A. Program A initializes i to 1. Inside the loop, it prints i and then increments i. The loop terminates when i is greater than 10, which occurs after 10 is printed. Program A prints 1 2 3 4 5 6 7 8 9 10. Program B initializes i to 0. Inside the loop, it increments i and then prints i. The loop terminates when i equals 10, which occurs after 10 is printed. Program B prints 1 2 3 4 5 6 7 8 9 10.
+
+32.<img width="823" alt="Screen Shot 2022-05-06 at 1 20 10 PM" src="https://user-images.githubusercontent.com/89219573/167211161-04e77ebb-2a5b-4887-a384-fc3c16e8bd03.png">
+With two processors running in parallel, execution time is minimized when the processors take on as close to an equal workload as possible. Running processes P and Q on one processor will take a total of 40 seconds. Running processes R and S on the other processor will take a total of 35 seconds. As the processors run in parallel, all four operations are completed in 40 seconds.
+43.<img width="816" alt="Screen Shot 2022-05-06 at 1 20 51 PM" src="https://user-images.githubusercontent.com/89219573/167211230-508ed11e-3143-4f8a-bd87-9494ae3af58f.png">
+Both code segments display the correct average. Code segment I requires more arithmetic operations because it performs the operation sum divided by LENGTH, open parenthesis, num List, close parenthesis within the loop, while code segment II performs the same operation only once.
+45.<img width="811" alt="Screen Shot 2022-05-06 at 1 21 22 PM" src="https://user-images.githubusercontent.com/89219573/167211289-e1e96387-1740-45fa-b849-bb8fd7fc9d4f.png">
+Both code segments display the correct average. Code segment I requires more arithmetic operations because it performs the operation sum divided by LENGTH, open parenthesis, num List, close parenthesis within the loop, while code segment II performs the same operation only once.
